@@ -1,0 +1,10 @@
+int main()    
+{    
+int p=10, q=20;      
+printf("Before swap a=%d b=%d",a,b);      
+p=p+q;//p=30 (10+20)    
+q=p-q;//q=10 (30-20)    
+p=p-q;//p=20 (30-10)    
+printf("\nAfter swap p=%d q=%d",p,q);    
+return 0;  
+}
